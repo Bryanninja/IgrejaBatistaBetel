@@ -1,0 +1,376 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: var(--cor-white);
+
+}
+
+:root {
+    --cor-principal: #9F182E;
+    --cor-secundaria: #1a1a1a;
+    --cor-white: #ffff;
+}
+
+
+/* ----> Sessão Alinhamentos*/
+.fixCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ----> fimm ALinhamentos*/
+
+/* ----> Sessão Textos*/
+.titulo {
+    font-family: Konkhmer Sleokchher;
+}
+
+.paragrafo {
+    font-family: Inter;
+    font-size: 15px;
+}
+
+/* ----> Fimm Textos */
+
+
+/* ----> Sessão botões*/
+.btn {
+    background-color: var(--cor-principal);
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+
+.btn:hover {
+    background-color: #58121e;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ----> fimm botões*/
+
+
+/* ----> Sessão Navbar*/
+.bg-body-costum {
+    background-color: var(--cor-secundaria) !important;
+}
+
+nav .nav-item a {
+    color: white !important;
+    font-family: Inter;
+    font-size: 15px;
+}
+
+nav .nav-link {
+    margin: 0 15px;
+}
+
+nav .navbar-brand img,
+footer img {
+    mix-blend-mode: lighten;
+}
+
+nav .nav-link.active,
+nav .nav-link:hover {
+    border-bottom: 1px solid #9F182E;
+}
+
+nav .navbar-toggler {
+    color: var(--cor-principal) !important;
+    border: 2px solid #ffff;
+}
+
+nav .navbar-toggler-icon {
+    background-image: url('../images/hamburger.svg');
+}
+
+/* ----> Fimm Navbar*/
+
+
+/* ----> Barra de noticias*/
+.noticeBox {
+    background-color: rgba(159, 24, 46, 0.85);
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-top: 68px;
+}
+
+.noticeBox p {
+    line-height: 30px;
+}
+
+/* ----> fimm Barra de noticias*/
+
+
+/* ----> Sessão Versiculo Diario*/
+section.versiculoDiario {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-color: var(--cor-white);
+}
+
+.carousel.slide.mobileSlide {
+    display: none;
+}
+
+.versoPosition {
+    padding: 62px 0px;
+}
+
+.padding180 {
+    margin: auto;
+    padding-left: 175px;
+}
+
+.padding180 p {
+    max-width: 400px;
+}
+
+.versiculoDiario button {
+    margin-top: 10px;
+}
+
+/* ----> fimm VersiculoDiario*/
+
+.estudoVersiculo {
+    width: 100%;
+    height: auto;
+    margin-top: 130px;
+}
+
+.estudoVersiculo p {
+    font-size: 18px;
+}
+
+.estudoVersiculo h5 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.agrup {
+    padding-top: 100px;
+    margin: auto;
+    text-align: initial;
+    max-width: 400px;
+    line-height: 230%;
+}
+
+.agrup h6 {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #9F182E;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+
+.agrup2 {
+    margin: 50px 0px;
+}
+
+
+/* ----> Sessão Culto*/
+.horarioCulto {
+    background-color: var(--cor-secundaria);
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.domingo p:nth-child(3) {
+    margin-top: -15px;
+}
+
+.horarioCulto button,
+.horario button {
+    margin-top: -5px;
+}
+
+.image1 {
+    background-image: url('../images/banner1.png');
+    background-size: cover;
+    height: 379px;
+    background-repeat: no-repeat;
+}
+
+/* ----> Fimm Culto*/
+
+
+/* ----> Sessão CultoDeJovens*/
+.horarioCultoJovens {
+    background-color: var(--cor-secundaria);
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.horario {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.horario p {
+    margin-top: -10px;
+}
+
+.image2 {
+    width: 50%;
+    background-image: url('../images/banner2.png');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+/* ----> Fimm CultoDeJovens*/
+
+
+/* ----> Sessão Sobre*/
+.about {
+    background-color: var(--cor-white);
+    padding: 100px 40px;
+    width: 100%;
+}
+
+.about h3 {
+    margin-bottom: 40px;
+}
+
+.about .col-md-4 {
+    padding: 0 40px;
+}
+
+
+/* ----> Fimm Sessão Sobre*/
+.visitBox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: var(--cor-secundaria);
+}
+
+.visitFlex {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* Ajuste o espaçamento entre o texto e o botão */
+}
+
+.buttonMy {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 1px 10px;
+    border: 0;
+    border-radius: 4px;
+}
+
+section.image3 {
+    background-image: url('../images/banner3.png');
+    background-size: cover;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer {
+    background-color: #1a1a1a !important;
+}
+
+footer a {
+    color: white !important;
+}
+
+footer button {
+    margin-top: 0;
+}
+
+footer .border-top {
+    border-top: 1px solid #9F182E !important;
+}
+
+footer img {
+    width: 100%;
+    max-width: 270px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .carousel.slide.mobileSlide {
+        display: block;
+    }
+
+    .carousel.slide.desktopSlide {
+        display: none;
+    }
+
+    .padding180 {
+        padding-left: 0px;
+    }
+
+    .versiculoDiario {
+        margin-bottom: 250px;
+    }
+
+    .versiculoDiario .col-md-6 {
+        width: 100%;
+        padding-bottom: 40px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .versiculoDiario .paragrafo {
+        display: inline-block;
+    }
+
+    .image1,
+    .image3 {
+        background-position: top;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    nav .navbar-nav {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .noticeBox p {
+        font-size: 14px;
+    }
+
+    .about .col-md-4 {
+        padding: 10px 100px;
+    }
+
+    .about i {
+        font-size: 50px;
+    }
+
+    footer img {
+        width: 100%;
+        max-width: 220px;
+        margin-bottom: 2rem;
+    }
+
+}
