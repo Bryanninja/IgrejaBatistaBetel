@@ -325,6 +325,8 @@ footer img {
         padding-left: 0px;
     }
 
+    
+
     .versiculoDiario {
         margin-bottom: 250px;
     }
@@ -338,6 +340,10 @@ footer img {
 
     .versiculoDiario .paragrafo {
         display: inline-block;
+    }
+
+    .about {
+        padding: 40px 0;
     }
 
     .image1,
@@ -355,16 +361,33 @@ footer img {
 
 @media screen and (max-width: 767px) {
 
+    .navbar-brand img{
+       width: 100px;
+    }
+
+    .noticeBox{
+        margin-top: 60px;
+    }
+
     .noticeBox p {
         font-size: 14px;
+    }
+
+    .versiculoDiario img{
+        width: 70%;
     }
 
     .about .col-md-4 {
         padding: 10px 100px;
     }
 
+
     .about i {
-        font-size: 50px;
+        font-size: 65px;
+    }
+
+    .visitBox{
+        padding: 0 5%;
     }
 
     footer img {
