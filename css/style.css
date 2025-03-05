@@ -77,8 +77,9 @@ nav .nav-link {
     margin: 0 15px;
 }
 
-nav .navbar-brand img,
-footer img {
+nav .navbar-brand img {
+    width: 140px;
+    height: 100%;
     mix-blend-mode: lighten;
 }
 
@@ -105,7 +106,7 @@ nav .navbar-toggler-icon {
     width: 100%;
     height: 30px;
     text-align: center;
-    margin-top: 68px;
+    margin-top: 70px;
 }
 
 .noticeBox p {
@@ -124,6 +125,10 @@ section.versiculoDiario {
 }
 
 .carousel.slide.mobileSlide {
+    display: none;
+}
+
+.carousel.slide.mobileSlide2{
     display: none;
 }
 
@@ -150,7 +155,7 @@ section.versiculoDiario {
     width: 100%;
     padding: 0 5%;
     height: auto;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 .estudoVersiculo p {
@@ -162,8 +167,22 @@ section.versiculoDiario {
     font-size: 15px;
 }
 
+.organizer{
+    background-color: var(--cor-secundaria);
+    width: 100%;
+    padding: 10px 2%;
+    margin-top: 70px;
+    text-align: center;
+    border-top: 1px solid #9F182E;
+}
+
+.organizer .titulo{
+    margin-top: 6px;
+    color: var(--cor-white);
+    font-size: 15px;
+}
+
 .agrup {
-    padding-top: 100px;
     margin: auto;
     text-align: initial;
     max-width: 400px;
@@ -223,6 +242,7 @@ section.versiculoDiario {
     margin: auto;
     text-align: center;
     width: 50%;
+    padding: 3%;
 }
 
 .horario p {
@@ -306,12 +326,10 @@ footer .border-top {
     border-top: 1px solid #9F182E !important;
 }
 
-footer img {
-    width: 100%;
-    max-width: 270px;
+footer .col-md-4 img {
+    width: 160px;
+    mix-blend-mode: lighten;
 }
-
-
 
 
 @media screen and (max-width: 1000px) {
@@ -320,6 +338,10 @@ footer img {
     }
 
     .carousel.slide.desktopSlide {
+        display: none;
+    }
+
+    .carousel.slide.mobileSlide2{
         display: none;
     }
 
@@ -363,8 +385,24 @@ footer img {
 
 @media screen and (max-width: 767px) {
 
-    .navbar-brand img{
-       width: 100px;
+    nav .navbar-brand img {
+        width: 100px;
+    }
+
+    .organizer{
+        margin-top: 60px;
+    }
+    
+    .organizer .titulo{
+        font-size: 14px;
+    }
+
+    .carousel.slide.mobileSlide{
+        display: none;
+    }
+
+    .carousel.slide.mobileSlide2{
+        display: block;
     }
 
     .noticeBox{
@@ -376,20 +414,27 @@ footer img {
     }
 
     .versiculoDiario img{
-        width: 70%;
+        width: 80%;
+    }
+
+    .versiculoDiario .padding180{
+        max-width: 300px;
     }
 
     .about .col-md-4 {
         padding: 10px 100px;
     }
 
-
     .about i {
         font-size: 65px;
     }
 
     .visitBox{
-        padding: 0 5%;
+        padding: 0 2%;
+    }
+
+    .visitBox .visitFlex span, .visitBox .visitFlex button{
+        font-size: 13px;
     }
 
     footer img {
