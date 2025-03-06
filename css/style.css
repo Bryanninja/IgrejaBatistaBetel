@@ -106,7 +106,7 @@ nav .navbar-toggler-icon {
     width: 100%;
     height: 30px;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 69px;
 }
 
 .noticeBox p {
@@ -171,7 +171,7 @@ section.versiculoDiario {
     background-color: var(--cor-secundaria);
     width: 100%;
     padding: 10px 2%;
-    margin-top: 70px;
+    margin-top: 69px;
     text-align: center;
     border-top: 1px solid #9F182E;
 }
@@ -390,7 +390,7 @@ footer .col-md-4 img {
     }
 
     .organizer{
-        margin-top: 60px;
+        margin-top: 59px;
     }
     
     .organizer .titulo{
@@ -406,7 +406,7 @@ footer .col-md-4 img {
     }
 
     .noticeBox{
-        margin-top: 60px;
+        margin-top: 59px;
     }
 
     .noticeBox p {
