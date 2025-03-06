@@ -171,7 +171,7 @@ section.versiculoDiario {
     background-color: var(--cor-secundaria);
     width: 100%;
     padding: 10px 2%;
-    margin-top: 69px;
+    margin-top: 70px;
     text-align: center;
     border-top: 1px solid #9F182E;
 }
@@ -390,7 +390,7 @@ footer .col-md-4 img {
     }
 
     .organizer{
-        margin-top: 59px;
+        margin-top: 58px;
     }
     
     .organizer .titulo{
@@ -406,7 +406,7 @@ footer .col-md-4 img {
     }
 
     .noticeBox{
-        margin-top: 59px;
+        margin-top: 58px;
     }
 
     .noticeBox p {
