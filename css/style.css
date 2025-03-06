@@ -331,6 +331,13 @@ footer .col-md-4 img {
     mix-blend-mode: lighten;
 }
 
+.embreve{
+    min-height: 900px;
+    padding: 100px;
+    text-align: center;
+    
+}
+
 
 @media screen and (max-width: 1000px) {
     .carousel.slide.mobileSlide {
